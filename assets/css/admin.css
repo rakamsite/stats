@@ -1,0 +1,20 @@
+.my-fa-stats-wrap {
+	max-width: 1100px;
+}
+
+.my-fa-stats-inline-form {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin: 12px 0;
+	flex-wrap: wrap;
+}
+
+.my-fa-stats-wrap table td,
+.my-fa-stats-wrap table th {
+	text-align: right;
+}
+
+.rtl .my-fa-stats-wrap .form-table th {
+	padding-right: 0;
+}
